@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <style>
+       .mg{
+        margin: 20px;
+       }
+    </style>
+    <div>
+    <form action="" style="margin: 20px;" >
+        <label for="firstName" class="mg"  required>FirstName : </label>
+        <input id="firstName" type="text" class="mg" placeholder="firstName"/><br>
+        <label for="lastName" class="mg">LastName:</label>
+        <input id="lastName" class="mg" type="text" placeholder="lastName"/><br>
+        <label for="email" class="mg">Email :  </label>
+        <input id="email" type="email" class="mg" placeholder="Email"/><br>
+        <label class="mg">Date</label>
+        <input type="date" class="mg"><br>
+        <label for="Gender" class="mg">Gender</label>
+        <select class="mg" >
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <label for="favColor" class="mg">FavColor</label><br>
+        
+        <label class="mg">red</label>
+        <input id="favColor"  style="margin:5px" type="radio" />
+        <label class="mg" >blue</label>
+        <input id="favColor" style="margin:5px" type="radio" /><br>
+            <br>
+        
+        <label for="feedBack" class="mg" >FeedBack</label><br>
+        <textarea id="fezdBack" class="mg"></textarea><br>
+        <label for="fileupload" class="mg">Upload File Here</label>
+        <input type="file" id="fileupload" class="mg"/><br>
+        <button type="submit" class="mg" onclick="alert('submit')" >Submit</button>
+   
+    </form>
+</div>
+</body>
+</html>
